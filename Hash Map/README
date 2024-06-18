@@ -1,0 +1,5 @@
+#              An implementation of an optimized HashMap class of open addressing with quadratic probing capabilities.
+#              Includes methods to insert a key and value pair into the Hashmap or remove them,
+#              resize or clear the map, and search for keys. Other methods have capabilities to return the load factor,
+#              the amount of empty buckets, and an array with the keys and values. Final dunder functions
+#              add iteration to the class.
