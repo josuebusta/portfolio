@@ -1,9 +1,9 @@
-dynamic_array.py
+dynamic_array.py:
 Methods for implementing a DynamicArray class with features
 including resizing, appending, inserting, removing, slicing,
 mapping, filtering, and reducing.
 
-min_heap.py
+min_heap.py:
 Methods for implementing a minimum binary heap class with features
 including adding an element with a specified priority value,
 and removing the element with the lowest priority value.
