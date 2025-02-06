@@ -1,0 +1,19 @@
+{
+  "name": "albums-starter-backend",
+  "version": "2024",
+  "description": "A database of Josue Bustamante's music library.",
+  "main": "albums-controller.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon albums-controller.mjs"
+  },
+  "author": "Josue Bustamante",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "rest": "^2.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
