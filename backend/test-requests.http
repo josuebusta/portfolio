@@ -1,0 +1,88 @@
+### CREATE five documents.
+POST http://localhost:3000/albums HTTP/1.1
+content-type: application/json
+
+{
+    "title": "The Miseducation of Lauryn Hill",
+    "releaseDate": "1997-08-25",
+    "artist": "Lauryn Hill",
+    "ranking": 1
+}
+
+
+### CREATE 2
+POST http://localhost:3000/albums HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Thriller",
+    "releaseDate": "1982-11-29",
+    "artist": "Michael Jackson",
+    "ranking": 2
+}
+
+### CREATE 3
+POST http://localhost:3000/albums HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Abbey Road",
+    "releaseDate": "1982-09-26",
+    "artist": "The Beatles",
+    "ranking": 3
+}
+
+### CREATE 4
+POST http://localhost:3000/albums HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Purple Rain",
+    "releaseDate": "1984-07-27",
+    "artist": "Prince & The Revolution",
+    "ranking": 4
+}
+
+### CREATE 5
+POST http://localhost:3000/albums HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Blonde",
+    "releaseDate": "2016-08-20",
+    "artist": "Frank Ocean",
+    "ranking": 5
+}
+
+
+### RETRIEVE all documents.
+GET http://localhost:3000/albums HTTP/1.1
+
+
+
+### RETRIEVE a document by its ID.
+### Replace the following ID with one that exists in the collection.
+GET http://localhost:3000/albums/666903eb0936a66fe1925a92 HTTP/1.1
+
+
+### UPDATE one document's releaseDate, by ID.
+### Replace the ID in the following request with one that exists
+### and update the releaseDate:
+PUT http://localhost:3000/albums/666903eb0936a66fe1925a92 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "The Miseducation of Lauryn Hill",
+    "releaseDate": "1998-08-25",
+    "artist": "Lauryn Hill",
+    "ranking": 1
+}
+
+### DELETE by ID (responds with nothing if successful):
+DELETE http://localhost:3000/albums/6653f37a09907ca91dfe3dc2 HTTP/1.1
+
+
+
+### RETRIEVE all documents (responds with 4 or the original 5):
+GET http://localhost:3000/albums HTTP/1.1
+
