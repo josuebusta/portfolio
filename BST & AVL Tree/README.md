@@ -167,7 +167,7 @@ avl.make_empty()
 print(bst.is_empty())  # True
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Running Built-in Tests
 
