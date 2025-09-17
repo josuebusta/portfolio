@@ -11,7 +11,7 @@ An implementation of two fundamental tree data structures in Python, showcasing 
 - [Usage Examples](#usage-examples)
 - [Testing](#testing)
 - [Performance Analysis](#performance-analysis)
-- [Screenshots](#screenshots)
+- [Example Output](#example-output)
 
 ## Overview
 
@@ -234,6 +234,8 @@ BST pre-order { 50, 30, 20, 40, 70, 60, 80 }
         L: 60 (leaf)
         R: 80 (leaf)
 ```
+
+## Example Output
 
 ### AVL Tree After Balancing
 
