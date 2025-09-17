@@ -5,13 +5,15 @@ An implementation of two fundamental tree data structures in Python, showcasing 
 ## Table of Contents
 
 - [Overview](#overview)
+- [Example Output](#example-output)
 - [Features](#features)
 - [Data Structures](#data-structures)
 - [Installation & Setup](#installation--setup)
 - [Usage Examples](#usage-examples)
 - [Testing](#testing)
 - [Performance Analysis](#performance-analysis)
-- [Example Output](#example-output)
+- [Learning Outcomes](#learning-outcomes)
+- [References](#references)
 
 ## Overview
 
@@ -21,6 +23,34 @@ This project implements two critical tree data structures:
 - **AVL Tree**: A self-balancing binary search tree that maintains logarithmic height through rotations
 
 Both implementations provide efficient O(log n) average-case operations for search, insertion, and deletion, with the AVL tree guaranteeing O(log n) worst-case performance through automatic rebalancing.
+
+## Example Output
+
+### Tree Visualization Example
+
+```
+BST pre-order { 50, 30, 20, 40, 70, 60, 80 }
+    50 (root)
+    L: 30
+        L: 20 (leaf)
+        R: 40 (leaf)
+    R: 70
+        L: 60 (leaf)
+        R: 80 (leaf)
+```
+
+### AVL Tree After Balancing
+
+```
+AVL pre-order { 50, 30, 20, 40, 70, 60, 80 }
+    50 (root)
+    L: 30
+        L: 20 (leaf)
+        R: 40 (leaf)
+    R: 70
+        L: 60 (leaf)
+        R: 80 (leaf)
+```
 
 ## Features
 
@@ -221,34 +251,6 @@ RESULT : BST pre-order { 2, 3 }
 ### Space Complexity
 - **Space**: O(n) for both implementations
 - **Height**: O(log n) for AVL, O(n) worst-case for BST
-
-### Tree Visualization Example
-
-```
-BST pre-order { 50, 30, 20, 40, 70, 60, 80 }
-    50 (root)
-    L: 30
-        L: 20 (leaf)
-        R: 40 (leaf)
-    R: 70
-        L: 60 (leaf)
-        R: 80 (leaf)
-```
-
-## Example Output
-
-### AVL Tree After Balancing
-
-```
-AVL pre-order { 50, 30, 20, 40, 70, 60, 80 }
-    50 (root)
-    L: 30
-        L: 20 (leaf)
-        R: 40 (leaf)
-    R: 70
-        L: 60 (leaf)
-        R: 80 (leaf)
-```
 
 ## Learning Outcomes
 
